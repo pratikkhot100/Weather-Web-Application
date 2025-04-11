@@ -1,13 +1,17 @@
-# Weather_web_application
+# 🌤️ Weather_Web_Application
 
-## Description
+## 📝 Description
 Weather Application is a Java web application developed using Servlets, JSP, HTML, CSS, and JavaScript. It integrates with the OpenWeatherMap API to fetch weather data for a given city and display it to the user.
 
-## Features
+---
+
+## ✨ Features
 Fetch weather data based on the user's input city name.
 Display current weather conditions including temperature, humidity, wind speed, visibility, and cloud cover, etc.
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 - Java Servlets
 - JavaServer Pages (JSP)
 - HTML
@@ -16,7 +20,9 @@ Display current weather conditions including temperature, humidity, wind speed, 
 - Gson library for JSON parsing
 - OpenWeatherMap API
 
-## Setup Instructions
+---
+
+## ⚙️ Setup Instructions
 1. Download and install Eclipse IDE (or IntelliJ IDEA).
 2. Download and install Apache Tomcat 10.1.1.
 3. Open Eclipse IDE and configure it with Apache Tomcat:
@@ -37,34 +43,38 @@ Display current weather conditions including temperature, humidity, wind speed, 
    - Select your configured Tomcat server and click `Finish`.
 9. Access the WeatherApp through your web browser using the provided URL (usually `http://localhost:8080/WeatherApp`).
 
-## API Integration in Servlet:
+---
+
+## 🔌 API Integration in Servlet:
 - Created a Java servlet (MyServlet.java) to handle HTTP requests.
 - In the doPost method, fetched the city name from the form input.
 - Constructed the API URL with the city name and your API key (apiUrl) to fetch weather data.
 
- ### HTTP Request to API:
+ ### 🌐 HTTP Request to API:
    -  Used HttpURLConnection to establish a connection to the API endpoint.
    - Set the request method to GET and retrieved the API response using input streams.
 
- ### Processing API Response:
+ ### 🧠 Processing API Response:
   - The API response was in JSON format.
   - Used the Gson library to parse the JSON response into a JsonObject.
   - Extracted relevant weather data like temperature, humidity, wind speed, visibility, weather condition, and cloud cover from the JSON response.
     
-### Setting Request Attributes:
+### 📤  Setting Request Attributes:
 
   - Stored the extracted weather data, city name, date, time, and other relevant information as request attributes using HttpServletRequest.setAttribute().
 
-### Forwarding Request to JSP:
+### 📄 Forwarding Request to JSP:
 
   - Forwarded the request to the JSP page (index.jsp) for rendering using RequestDispatcher.forward().
 
-## Displaying Data in JSP:
+### 🖥️ Displaying Data in JSP:
 
   - In our JSP page (index.jsp), we used HTML and embedded Java code (EL expressions) to display the weather data.
   - Accessed the data from request attributes using ${attributeName} syntax.
 
-## Screenshots
+---
+
+## 🖼️ Screenshots
 
  ![Screenshot 2025-04-08 005632](https://github.com/user-attachments/assets/da5611ff-8a59-4855-b24f-d7ce34c3b146)
 
@@ -72,7 +82,8 @@ Display current weather conditions including temperature, humidity, wind speed, 
 
 ![Screenshot 2025-04-08 005809](https://github.com/user-attachments/assets/4a924359-9aaa-4377-856d-b5222f3f1359)
 
+---
 
-## Created by:
+## 👨‍💻 Created by:
 - [Pratik Khot](https://github.com/pratikkhot100) 
 
