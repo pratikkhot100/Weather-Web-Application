@@ -74,7 +74,7 @@ Display current weather conditions including temperature, humidity, wind speed, 
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Some Screenshots for the project:
 
  ![Screenshot 2025-04-08 005632](https://github.com/user-attachments/assets/da5611ff-8a59-4855-b24f-d7ce34c3b146)
 
