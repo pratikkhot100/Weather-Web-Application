@@ -84,6 +84,11 @@ Display current weather conditions including temperature, humidity, wind speed, 
 
 ---
 
-## 👨‍💻 Created by:
-- [Pratik Khot](https://github.com/pratikkhot100) 
+ ## 📞 Contact Information
+
+  🐙 GitHub: https://github.com/pratikkhot100
+
+  💼 LinkedIn: https://www.linkedin.com/in/pratikkhot01
+
+  📧 Email: pratikkhot1207@gmail.com
 
